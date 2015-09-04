@@ -20,7 +20,6 @@
     <string name="agent">User Agent</string>
     <string name="history">Καθαρισμός Ιστορικού</string>
     <string name="email">Στείλτε μου email</string>
-    <string name="flash">Ενεργοποίηση Adobe Flash</string>
     <string name="mobile">Προβολή ως κινητό</string>
     <string name="desk">Προβολή ως Desktop</string>
     <string name="custom">Προβολή ως συγκεκριμένος  user agent</string>
@@ -73,9 +72,6 @@
     <string name="dialog_download">Θα θέλατε να κατεβάσετε αυτό το αρχείο;</string>
     <string name="action_cancel">Ακύρωση</string>
     <string name="title_warning">Προσοχή</string>
-    <string name="dialog_adobe_dead">Λυπούμαστε η Google έκανε κάποιες αλλαγές και πλέον ο Adobe Flash δεν λειτουργεί σε Android 4.4+</string>
-    <string name="dialog_adobe_not_installed">Δεν ανιχνεύτηκε ο Adobe Flash Player.\nΠαρακαλώ εγκαταστήστε τον Flash Player.</string>
-    <string name="dialog_adobe_unsupported">Ο Adobe Flash δεν υποστηρίζει Andoid 4.2 και πάνω, και θα προκαλέσει προβλήματα. Παρακαλώ μην αναφέρετε σαν σφάλμα οποιοδήποτε θέμα δημιουργηθεί αν ενεργοποιήσετε το Flash.</string>
     <string name="title_user_agent">User Agent</string>
     <string name="title_download_location">Τοποθεσία λήψης</string>
     <string name="title_custom_homepage">Συγκεκριμένη Αρχική Σελίδα</string>
@@ -111,7 +107,6 @@
     <string name="download_sdcard_busy_dlg_title">USB storage μη διαθέσιμο</string>
     <string name="download_sdcard_busy_dlg_msg" >Η συσκευή αποθήκευσης είναι απασχολημένη. Για να επιτρέψετε λήψεις πατήστε το Κλείσιμο USB Storage στις ειδοποιήσεις.</string>
     <string name="incognito_cookies">Ενεργοποίηση Cookies στην Ανώνυμη περιήγηση</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">Χειροκίνητα</string>
     <string name="action_auto">Αυτόματα</string>
     <string name="action_follow_me">Επικοινωνήστε μαζί μου</string>

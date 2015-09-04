@@ -36,7 +36,6 @@
     <string name="agent">User Agent</string>
     <string name="history">Cancella cronologia</string>
     <string name="email">Email me</string>
-    <string name="flash">Abilita Adobe Flash</string>
     <string name="mobile">Visualizza come mobile</string>
     <string name="desk">Visualizza come desktop</string>
     <string name="custom">Visualizza come agente utente personalizzata</string>
@@ -89,9 +88,6 @@
     <string name="dialog_download">Vuoi scaricare questo file?</string>
     <string name="action_cancel">Annulla</string>
     <string name="title_warning">Attenzione</string>
-    <string name="dialog_adobe_dead">Spiacenti, Google ha fatto alcune modifiche e Adobe Flash non funziona più in Android 4.4+</string>
-    <string name="dialog_adobe_not_installed">Adobe Flash Player non rilevato.\nSi prega di installare Flash Player.</string>
-    <string name="dialog_adobe_unsupported">Adobe Flash non supporta Android 4.2 o superiori e bloccherà il browser. Per favore non segnalare alcun errore riscontrato quando attivi Flash.</string>
     <string name="title_user_agent">User Agent</string>
     <string name="title_download_location">Percorso download</string>
     <string name="title_custom_homepage">Homepage personale</string>
@@ -127,7 +123,6 @@
     <string name="download_sdcard_busy_dlg_title">Memoria USB non disponibile</string>
     <string name="download_sdcard_busy_dlg_msg" >La memoria di archiviazione è occupata. Per permettere i download, tocca Disattiva Memoria USB nella notifica.</string>
     <string name="incognito_cookies">Abilita Cookies in modalità incognito</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">Manuale</string>
     <string name="action_auto">Auto</string>
     <string name="action_follow_me">Contattami</string>

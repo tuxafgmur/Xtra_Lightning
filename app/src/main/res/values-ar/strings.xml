@@ -61,9 +61,6 @@
     <string name="dialog_download">هل ترغب في تحميل هذا الملف؟</string>
     <string name="action_cancel">إلغاء</string>
     <string name="title_warning">تحذير</string>
-    <string name="dialog_adobe_dead">عفوا, لقد أجريت جوجل بعض التغييرات , و مشغل الفلاش لم يعد يعمل على أندرويد 4.4 فما فوق.</string>
-    <string name="dialog_adobe_not_installed">لم يتم العثور على مشغل الفلاش يرجى تثبيته من المتجر.</string>
-    <string name="dialog_adobe_unsupported">مشغل الفلاش لا يدعم أندرويد 4.2 فما فوق , و عند تفعيل الفلاش سوف يتعطل المتصفح . يرجى عدم إبلاغنا بالمشاكل في حال تفعيل مشغل الفلاش.</string>
     <string name="title_user_agent">وكيل المستخدم</string>
     <string name="title_download_location">مسار التحميلات</string>
     <string name="title_custom_homepage">صفحة رئيسية مخصصة</string>

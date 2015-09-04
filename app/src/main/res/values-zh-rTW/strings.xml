@@ -20,7 +20,6 @@
     <string name="agent">User Agent</string>
     <string name="history">清除記錄</string>
     <string name="email">Email 給我</string>
-    <string name="flash">啟用 Adobe Flash</string>
     <string name="mobile">以行動裝置方式瀏覽</string>
     <string name="desk">以桌上型電腦方式瀏覽</string>
     <string name="custom">以自定 user agent 瀏覽</string>
@@ -74,9 +73,6 @@
     <string name="dialog_download">您是否想要下載這個檔案？</string>
     <string name="action_cancel">取消</string>
     <string name="title_warning">警告</string>
-    <string name="dialog_adobe_dead">我們很抱歉，由於 Google 的更動，Adobe Flash 與 Android 4.4+ 不再支援。</string>
-    <string name="dialog_adobe_not_installed">沒有偵測到 Adobe Flash Player。\n請安裝  Flash Player。</string>
-    <string name="dialog_adobe_unsupported">Adobe Flash 不支援 Andoid 4.2 及以上，若啟用會導致瀏覽器停止回應，請不要回報任何關於次問題的相關錯誤。</string>
     <string name="title_user_agent">User Agent</string>
     <string name="title_download_location">下載資料夾位置</string>
     <string name="title_custom_homepage">自定首頁</string>

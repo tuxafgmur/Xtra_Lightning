@@ -70,7 +70,6 @@ public class SettingsActivity extends ThemableSettingsActivity {
 		mPreferences = PreferenceManager.getInstance();
 
 		// initialize UI
-		RelativeLayout layoutFlash = (RelativeLayout) findViewById(R.id.layoutFlash);
 		RelativeLayout layoutBlockAds = (RelativeLayout) findViewById(R.id.layoutAdBlock);
 		layoutBlockAds.setEnabled(Constants.FULL_VERSION);
 		RelativeLayout layoutImages = (RelativeLayout) findViewById(R.id.layoutImages);
@@ -88,10 +87,6 @@ public class SettingsActivity extends ThemableSettingsActivity {
 
 		});
 
-		if (API >= 19) {
-			mPreferences.setFlashSupport(0);
-		}
-		int flashNum = mPreferences.getFlashSupport();
 		boolean imagesBool = mPreferences.getBlockImagesEnabled();
 		boolean enableJSBool = mPreferences.getJavaScriptEnabled();
 
@@ -103,7 +98,6 @@ public class SettingsActivity extends ThemableSettingsActivity {
 		else
 			mProxyChoiceName.setText(mProxyChoices[choice]);
 
-		CheckBox flash = (CheckBox) findViewById(R.id.cbFlash);
 		CheckBox adblock = (CheckBox) findViewById(R.id.cbAdblock);
 		adblock.setEnabled(Constants.FULL_VERSION);
 		CheckBox images = (CheckBox) findViewById(R.id.cbImageBlock);
@@ -112,17 +106,12 @@ public class SettingsActivity extends ThemableSettingsActivity {
 
 		images.setChecked(imagesBool);
 		enablejs.setChecked(enableJSBool);
-		if (flashNum > 0) {
-			flash.setChecked(true);
-		} else {
-			flash.setChecked(false);
-		}
 		adblock.setChecked(mPreferences.getAdBlockEnabled());
 		color.setChecked(mPreferences.getColorModeEnabled());
 
-		initCheckBox(flash, adblock, images, enablejs, color);
-		clickListenerForCheckBoxes(layoutFlash, layoutBlockAds, layoutImages, layoutEnableJS,
-				layoutProxyChoice, layoutColor, flash, adblock, images, enablejs, color);
+		initCheckBox(adblock, images, enablejs, color);
+		clickListenerForCheckBoxes(layoutBlockAds, layoutImages, layoutEnableJS,
+				layoutProxyChoice, layoutColor, adblock, images, enablejs, color);
 
 		RelativeLayout general = (RelativeLayout) findViewById(R.id.layoutGeneral);
 		RelativeLayout display = (RelativeLayout) findViewById(R.id.layoutDisplay);
@@ -137,25 +126,16 @@ public class SettingsActivity extends ThemableSettingsActivity {
 		about(about);
 	}
 
-	public void clickListenerForCheckBoxes(RelativeLayout layoutFlash,
-			RelativeLayout layoutBlockAds, RelativeLayout layoutImages,
-			RelativeLayout layoutEnableJS, LinearLayout layoutProxyChoice, RelativeLayout layoutColor,
-			final CheckBox flash, final CheckBox adblock, final CheckBox images,
-			final CheckBox enablejs, final CheckBox color) {
-		layoutFlash.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				if (API < 19) {
-					flash.setChecked(!flash.isChecked());
-				} else {
-					Utils.createInformativeDialog(mContext,
-							getResources().getString(R.string.title_warning), getResources()
-									.getString(R.string.dialog_adobe_dead));
-				}
-			}
-
-		});
+	public void clickListenerForCheckBoxes(
+                        RelativeLayout layoutBlockAds,
+                        RelativeLayout layoutImages,
+			RelativeLayout layoutEnableJS,
+			LinearLayout layoutProxyChoice,
+			RelativeLayout layoutColor,
+			final CheckBox adblock,
+			final CheckBox images,
+			final CheckBox enablejs,
+			final CheckBox color) {
 		layoutBlockAds.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -197,44 +177,9 @@ public class SettingsActivity extends ThemableSettingsActivity {
 		});
 	}
 
-	public void initCheckBox(CheckBox flash, CheckBox adblock, CheckBox images, CheckBox enablejs,
+	public void initCheckBox(CheckBox adblock, CheckBox images, CheckBox enablejs,
 			CheckBox color) {
-		flash.setEnabled(API < 19);
-		flash.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
-			@Override
-			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-				if (isChecked) {
-					getFlashChoice();
-				} else {
-					mPreferences.setFlashSupport(0);
-				}
-
-				boolean flashInstalled = false;
-				try {
-					PackageManager pm = getPackageManager();
-					ApplicationInfo ai = pm.getApplicationInfo("com.adobe.flashplayer", 0);
-					if (ai != null) {
-						flashInstalled = true;
-					}
-				} catch (NameNotFoundException e) {
-					flashInstalled = false;
-				}
-				if (!flashInstalled && isChecked) {
-					Utils.createInformativeDialog(SettingsActivity.this,
-							getResources().getString(R.string.title_warning), getResources()
-									.getString(R.string.dialog_adobe_not_installed));
-					buttonView.setChecked(false);
-					mPreferences.setFlashSupport(0);
-
-				} else if ((API >= 17) && isChecked) {
-					Utils.createInformativeDialog(SettingsActivity.this,
-							getResources().getString(R.string.title_warning), getResources()
-									.getString(R.string.dialog_adobe_unsupported));
-				}
-			}
-
-		});
 		adblock.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
 			@Override
@@ -270,37 +215,6 @@ public class SettingsActivity extends ThemableSettingsActivity {
 			}
 
 		});
-	}
-
-	private void getFlashChoice() {
-		AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);
-		builder.setTitle(mContext.getResources().getString(R.string.title_flash));
-		builder.setMessage(getResources().getString(R.string.flash))
-				.setCancelable(true)
-				.setPositiveButton(getResources().getString(R.string.action_manual),
-						new DialogInterface.OnClickListener() {
-							@Override
-							public void onClick(DialogInterface dialog, int id) {
-								mPreferences.setFlashSupport(1);
-							}
-						})
-				.setNegativeButton(getResources().getString(R.string.action_auto),
-						new DialogInterface.OnClickListener() {
-
-							@Override
-							public void onClick(DialogInterface dialog, int which) {
-								mPreferences.setFlashSupport(2);
-							}
-						}).setOnCancelListener(new OnCancelListener() {
-
-					@Override
-					public void onCancel(DialogInterface dialog) {
-						mPreferences.setFlashSupport(0);
-					}
-
-				});
-		AlertDialog alert = builder.create();
-		alert.show();
 	}
 
 	private void proxyChoicePicker() {

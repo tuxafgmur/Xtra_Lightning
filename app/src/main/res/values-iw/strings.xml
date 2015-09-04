@@ -9,7 +9,6 @@
     <string name="agent">סוכן משתמש</string>
     <string name="history">מחק הסטוריה ביציאה</string>
     <string name="email">שלח לי דוא\"ל</string>
-    <string name="flash">הפעל תכני פלאש (אם מותקן)</string>
     <string name="mobile">הצג כנייד</string>
     <string name="desk">הצג כמחשב</string>
     <string name="custom">הצג כסוכן משתמש מותאם אישית</string>

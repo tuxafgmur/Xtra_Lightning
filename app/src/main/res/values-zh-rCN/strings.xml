@@ -20,7 +20,6 @@
     <string name="agent">User Agent</string>
     <string name="history">清空历史记录</string>
     <string name="email">邮件开发者</string>
-    <string name="flash">启用 Adobe Flash</string>
     <string name="mobile">作为移动设备访问</string>
     <string name="desk">作为桌面设备访问</string>
     <string name="custom">自定义 User Agent</string>
@@ -73,9 +72,6 @@
     <string name="dialog_download">您是否需要下载此文件？</string>
     <string name="action_cancel">取消</string>
     <string name="title_warning">警告</string>
-    <string name="dialog_adobe_dead">"非常抱歉，Google 对此做了一些更改导致 Adobe Flash 无法支持 Android 4.4 以及更高版本。"</string>
-    <string name="dialog_adobe_not_installed">"未检测到您的设备中安装了 Adobe Flash Player，请先安装 Adobe  Flash Player 后再启用此选项。"</string>
-    <string name="dialog_adobe_unsupported">Adobe Flash 无法正常支持 Android 4.2 以及更高版本并且可能导致浏览器崩溃，若您启用后出现浏览器崩溃的问题请勿对此问题进行反馈。</string>
     <string name="title_user_agent">User Agent</string>
     <string name="title_download_location">下载目录</string>
     <string name="title_custom_homepage">自定义主页</string>
@@ -111,7 +107,6 @@
     <string name="download_sdcard_busy_dlg_title">USB 存储不可用</string>
     <string name="download_sdcard_busy_dlg_msg">USB 存储设备目前正忙，为确保正常下载此文件请在通知栏中确认关闭 USB 大容量存储。</string>
     <string name="incognito_cookies">在隐身模式中启用 Cookies</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">手工</string>
     <string name="action_auto">自动</string>
     <string name="action_follow_me">联系我</string>

@@ -36,7 +36,6 @@
     <string name="agent">Felhasználó Ügynök</string>
     <string name="history">Előzmények törlése</string>
     <string name="email">Írj E-Mail-t nekem</string>
-    <string name="flash">Adobe Flash bekapcsolása</string>
     <string name="mobile">Megtekintés mobil nézetben</string>
     <string name="desk">Megtekintés asztali nézetben</string>
     <string name="custom">Megtekintés egyéni felhasználói ügynökként</string>
@@ -89,9 +88,6 @@
     <string name="dialog_download">Le szeretnéd tölteni ezt a fájlt?</string>
     <string name="action_cancel">Mégse</string>
     <string name="title_warning">Figyelmeztetés</string>
-    <string name="dialog_adobe_dead">Elnézést kérünk,de a Google néhány változtatást hajtott végre , ezért az Adobe Flash már nem működik Android 4.4-en és a fölött.</string>
-    <string name="dialog_adobe_not_installed">Az Adobe Flash Player nincs észlelve.\nKérjük telepítse a Flash Player-t.</string>
-    <string name="dialog_adobe_unsupported">Az Adobe Flash nem támogatott az Andoid 4.2-őn és a fölött, és a böngésző összeomolhat. Kérjük, ne jelentsen semmilyen összeomlást , ami előfordulhat , ha engedélyezi a Flash-t.</string>
     <string name="title_user_agent">Felhasználói ügynök</string>
     <string name="title_download_location">Letöltési hely</string>
     <string name="title_custom_homepage">Egyéni honlap</string>
@@ -127,7 +123,6 @@
     <string name="download_sdcard_busy_dlg_title">USB-tár nem elérhető</string>
     <string name="download_sdcard_busy_dlg_msg" >A tároló dolgozik.Hogy engedélyezze a letöltéseket , érintse meg az USB-tár kikapcsolását az értesítésnél.</string>
     <string name="incognito_cookies">Cookie-k engedélyezése inkognitó módban</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">Kézi</string>
     <string name="action_auto">Automata</string>
     <string name="action_follow_me">Vedd fel velem a kapcsolatot</string>

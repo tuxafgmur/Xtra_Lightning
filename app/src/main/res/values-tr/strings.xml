@@ -20,7 +20,6 @@
     <string name="agent">Tarayıcı Kimliği</string>
     <string name="history">Geçmişi sil</string>
     <string name="email">Bana email gönder</string>
-    <string name="flash">Flash Playerı aç</string>
     <string name="mobile">Mobil olarak görüntüle</string>
     <string name="desk">Masaüstü olarak görüntüle</string>
     <string name="custom">Kişisel tarayıcı kimliği ile görüntüle</string>
@@ -73,9 +72,6 @@
     <string name="dialog_download">Bu dosyayı indirmek ister misin?</string>
     <string name="action_cancel">İptal</string>
     <string name="title_warning">Uyarı</string>
-    <string name="dialog_adobe_dead">Üzgünüz, Google\'ın yaptığı değişiklik nedeniyle Flash Player Android 4.4 ve üstü sürümlerde çalışmıyor.</string>
-    <string name="dialog_adobe_not_installed">Adobe Flash Player bulunamadı.\nLütfen Flash Player yükleyin.</string>
-    <string name="dialog_adobe_unsupported">Adobe Flash Andoid 4.2 ve altını desteklemiyor ve tarayıcının çökmesine neden oluyor.\nLütfen bu nedenle oluşan çökmeleri rapor etmeyin.</string>
     <string name="title_user_agent">Tarayıcı Kimliği</string>
     <string name="title_download_location">İndirme Adresi</string>
     <string name="title_custom_homepage">Kişisel Anasayfa</string>
@@ -111,7 +107,6 @@
     <string name="download_sdcard_busy_dlg_title">USB depolama erişilemez</string>
     <string name="download_sdcard_busy_dlg_msg" >Depolama meşgul. İndirmeleri aktif etmek için bildirimler ekranından USB depolamayı kapatın.</string>
     <string name="incognito_cookies">Gizli modda çerezleri aktif et</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">El ile</string>
     <string name="action_auto">Otomatik</string>
     <string name="action_follow_me">Benimle iletişim kur</string>

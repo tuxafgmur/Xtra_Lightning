@@ -33,7 +33,6 @@
     <string name="agent">ユーザーエージェント</string>
     <string name="history">履歴を消去する</string>
     <string name="email">Email me</string>
-    <string name="flash">Adobe Flash</string>
     <string name="mobile">モバイル</string>
     <string name="desk">デスクトップ</string>
     <string name="custom">カスタム</string>
@@ -86,9 +85,6 @@
     <string name="dialog_download">このファイルをダウンロードしますか?</string>
     <string name="action_cancel">キャンセル</string>
     <string name="title_warning">警告</string>
-    <string name="dialog_adobe_dead">申し訳ありませんが、Googleの仕様変更のため、Adobe FlashはAndroid 4.4以上に対応していません。</string>
-    <string name="dialog_adobe_not_installed">Adobe Flash Playerをインストールしてください</string>
-    <string name="dialog_adobe_unsupported">Adobe FlashはAndroid 4.2以降に対応していません。ブラウザが強制終了します。Flashを有効にしたことによる強制終了については報告しないでください。</string>
     <string name="title_user_agent">ユーザーエージェント</string>
     <string name="title_download_location">ダウンロード先</string>
     <string name="title_custom_homepage">カスタムスタートページ</string>
@@ -124,7 +120,6 @@
     <string name="download_sdcard_busy_dlg_title">USBストレージが利用不可です</string>
     <string name="download_sdcard_busy_dlg_msg">ストレージがビジー状態です。ダウンロードするには、ステータスバーからUSB接続を変更してください。</string>
     <string name="incognito_cookies">シークレットタブでCookiesを有効にする</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">マニュアル</string>
     <string name="action_auto">自動</string>
     <string name="action_follow_me">Contact Me</string>

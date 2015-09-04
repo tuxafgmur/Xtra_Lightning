@@ -36,7 +36,6 @@
     <string name="agent">Agente</string>
     <string name="history">Limpar histórico</string>
     <string name="email">Escreva-me um e-mail</string>
-    <string name="flash">Ativar Adobe Flash</string>
     <string name="mobile">Ver como Mobile</string>
     <string name="desk">Ver como Desktop</string>
     <string name="custom">Ver como agente de utilizador</string>
@@ -89,9 +88,6 @@
     <string name="dialog_download">Gostaria de transferir este ficheiro?</string>
     <string name="action_cancel">Cancelar</string>
     <string name="title_warning">Aviso</string>
-    <string name="dialog_adobe_dead">Desculpe mas a Google fez algumas alterações e o Adobe Flash Player já não funciona em versões Android 4.4+.</string>
-    <string name="dialog_adobe_not_installed">O Adobe Flash Player não foi detetado.\nTem que instalar o Flash Player.</string>
-    <string name="dialog_adobe_unsupported">O Adobe Flash Player não funciona em sistemas Andoid 4.2+ e irá terminar a aplicação. Por favor não reporte os erros que ocorram se ativar o Adobe Flash Player.</string>
     <string name="title_user_agent">Agente de utilizador</string>
     <string name="title_download_location">Local das transferências</string>
     <string name="title_custom_homepage">Página inicial personalizada</string>
@@ -127,7 +123,6 @@
     <string name="download_sdcard_busy_dlg_title">Cartão SD não disponível</string>
     <string name="download_sdcard_busy_dlg_msg" >O cartão SD está ocupado. Para poder transferir ficheiros, desative a opção Desativar armazenamento USB na notificação.</string>
     <string name="incognito_cookies">Permitir cookies no modo incógnito</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">Manual</string>
     <string name="action_auto">Automático</string>
     <string name="action_follow_me">Contactos</string>

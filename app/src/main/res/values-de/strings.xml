@@ -36,7 +36,6 @@
     <string name="agent">User-Agent</string>
     <string name="history">Verlauf leeren</string>
     <string name="email">Kontakt</string>
-    <string name="flash">Adobe Flash aktivieren</string>
     <string name="mobile">Mobile Ansicht</string>
     <string name="desk">Desktop Ansicht</string>
     <string name="custom">Benutzerdefinierte Ansicht</string>
@@ -89,9 +88,6 @@
     <string name="dialog_download">Möchten Sie diese Datei herunterladen?</string>
     <string name="action_cancel">Abbrechen</string>
     <string name="title_warning">Warnung</string>
-    <string name="dialog_adobe_dead">Hinweis: Google hat einige Änderungen in Android 4.4+ eingeführt und Adobe Flash ist dadurch nicht mehr möglich!</string>
-    <string name="dialog_adobe_not_installed">Adobe Flash Player wurde nicht erkannt.\nBitte installieren Sie den Flash Player.</string>
-    <string name="dialog_adobe_unsupported">Adobe Flash unterstützt Andoid 4.2 und höher nicht mehr und kann zu Abstürzen führen. Bitte melden Sie keine Probleme, wenn Sie Flash aktiviert haben!</string>
     <string name="title_user_agent">User-Agent</string>
     <string name="title_download_location">Download-Verzeichnis festlegen</string>
     <string name="title_custom_homepage">Benutzerdefinierte Startseite</string>
@@ -127,7 +123,6 @@
     <string name="download_sdcard_busy_dlg_title">USB-Speicher nicht verfügbar!</string>
     <string name="download_sdcard_busy_dlg_msg" >Speicher aktiv. Um ein Herunterladen zu ermöglichen, schalten Sie den USB-Speicher in der Benachrichtigung aus.</string>
     <string name="incognito_cookies">Cookies im Inkognito-Modus aktivieren</string>
-    <string name="title_flash">Adobe Flash</string>
     <string name="action_manual">Manuell</string>
     <string name="action_auto">Auto</string>
     <string name="action_follow_me">Kontakt</string>

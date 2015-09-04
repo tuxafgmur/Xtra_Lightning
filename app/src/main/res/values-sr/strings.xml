@@ -33,7 +33,6 @@
     <string name="agent">Идентификација</string>
     <string name="history">Очисти историјат</string>
     <string name="email">Контакт</string>
-    <string name="flash">Адобов Флеш</string>
     <string name="mobile">Мобилни приказ</string>
     <string name="desk">Нормални приказ</string>
     <string name="custom">Приказ са посебном ид.</string>
@@ -86,9 +85,6 @@
     <string name="dialog_download">Желите ли да преузмете овај фајл?</string>
     <string name="action_cancel">Одустани</string>
     <string name="title_warning">Упозорење</string>
-    <string name="dialog_adobe_dead">Нажалост, услед измена које је Гугл урадио, Адобов Флеш више не ради на Андроиду 4.4+</string>
-    <string name="dialog_adobe_not_installed">Адобов Флеш није откривен.\nИнсталирајте Флеш Плејер.</string>
-    <string name="dialog_adobe_unsupported">Адобов Флеш не подржава Андроид 4.2 и новији, и срушиће прегледач. Не пријављујте грешке које се дешавају ако укључите Флеш.</string>
     <string name="title_user_agent">Идентификација</string>
     <string name="title_download_location">Фасцикла преузимања</string>
     <string name="title_custom_homepage">Посебна домаћа страница</string>
@@ -124,7 +120,6 @@
     <string name="download_sdcard_busy_dlg_title">УСБ складиште није доступно</string>
     <string name="download_sdcard_busy_dlg_msg">Складиште је заузето. Да дозволите преузимања, додирните „Искључи УСБ складиште“ у обавештењу.</string>
     <string name="incognito_cookies">Омогући колачиће у приватном режиму</string>
-    <string name="title_flash">Адобов Флеш</string>
     <string name="action_manual">Ручно</string>
     <string name="action_auto">Аутоматски</string>
     <string name="action_follow_me">Контактирајте ме</string>
